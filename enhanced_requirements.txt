@@ -1,0 +1,19 @@
+# Core requirements (required)
+python-telegram-bot==20.7
+requests==2.31.0
+
+# Enhanced downloaders (optional - for better platform support)
+# Install these for full multi-downloader functionality:
+# pip install yt-dlp youtube-dl instaloader
+
+# Primary downloader (recommended)
+yt-dlp>=2023.12.30
+
+# Alternative downloaders (optional)
+youtube-dl>=2023.12.30
+
+# Instagram-specific downloader (optional)
+instaloader>=4.10.2
+
+# Additional utilities (optional)
+ffmpeg-python>=0.2.0  # For video processing if needed
