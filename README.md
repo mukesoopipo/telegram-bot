@@ -28,6 +28,17 @@ The bot automatically tries different downloaders in order:
 - **Twitch**: twitch.tv (live clip support)
 - **Direct URLs**: Any video file URL (.mp4, .avi, .mov, etc.)
 
+
+python -m venv myenv
+
+# On Linux/Mac
+source myenv/bin/activate
+
+# On Windows
+myenv\Scripts\activate
+
+
+
 ## 🚀 Installation
 
 ### Quick Setup (with all downloaders)
